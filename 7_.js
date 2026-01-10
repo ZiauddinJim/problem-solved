@@ -1,11 +1,13 @@
-function sumArray(arr) {
-    let sum = 0;
+function findEvenNumbers(arr) {
+    let evens = [];
 
     for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
+        if (arr[i] % 2 === 0) {
+            evens.push(arr[i]);
+        }
     }
-    return sum;
+    return evens;
 }
 
 // Example
-console.log(sumArray([1, 2, 3, 4])); // 10
+console.log(findEvenNumbers([1, 2, 3, 4, 5, 6])); // [2,4,6]

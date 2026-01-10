@@ -1,11 +1,13 @@
-function isPalindrome(str) {
-    let reversed = "";
-    for (let i = str.length - 1; i >= 0; i--) {
-        reversed += str[i];
+function findMax(arr) {
+    let max = arr[0];
+
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
     }
-    return str === reversed;
+    return max;
 }
 
 // Example
-console.log(isPalindrome("madam")); // true
-console.log(isPalindrome("hello")); // false
+console.log(findMax([5, 1, 9, 3])); // 9
