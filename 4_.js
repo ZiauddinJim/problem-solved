@@ -1,3 +1,5 @@
+// Write a function that takes an array of numbers and returns the largest number.
+
 function findMax(arr) {
     let max = arr[0];
 
