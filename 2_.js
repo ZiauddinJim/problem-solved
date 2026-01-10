@@ -1,3 +1,5 @@
+// Write a function that counts how many vowels (a, e, i, o, u) are in a given string.
+
 function countVowels(str) {
     let count = 0;
     let vowels = "aeiouAEIOU";

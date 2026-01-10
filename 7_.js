@@ -1,3 +1,5 @@
+// Write a function that returns all even numbers from a given array.
+
 function findEvenNumbers(arr) {
     let evens = [];
 

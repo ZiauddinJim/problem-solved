@@ -1,3 +1,5 @@
+// Write a function that removes all duplicate numbers from an array.
+
 function removeDuplicates(arr) {
     let unique = [];
 
